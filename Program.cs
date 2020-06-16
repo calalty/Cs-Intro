@@ -15,7 +15,7 @@ float = shorter decimal range
     {
         static void Main(string[] args)
         {
-            Mathematics maths = new Mathematics();
+            Logic.Mathematics maths = new Logic.Mathematics();
             double subtract = maths.Substraction(5.2,7.4);
             double add = maths.Addition(20.2, 3.8);
             float division = maths.Division(50.6f, 9.3f);
@@ -25,16 +25,49 @@ float = shorter decimal range
             Console.WriteLine(division);
             Console.WriteLine(multiply);
 
+            Console.WriteLine("-------");
+            Console.WriteLine("-------");
+
             AgeCalculator checkAge = new AgeCalculator();
             Console.Write("Please enter age: ");
             string userInput = Console.ReadLine();
             checkAge.Calculator(Convert.ToInt32(userInput));
-            Console.WriteLine($"the age of this person is {userInput}");
+            Console.WriteLine($"as this person is {userInput} years of age");
+
+            Console.WriteLine("-------");
+            Console.WriteLine("-------");
+
+            OddorEven oddOrEven = new OddorEven();
+            oddOrEven.isOddorEven(2);
+
+            Console.WriteLine("-------");
+            Console.WriteLine("-------");
+            
+        /*
+          create multiple variables about yourself declared as private
+          then create a public method to access the variables in a structured way
+          Console.WriteLine about yourself
+          Display that method inside of Program.cs
+        */
+
+            Encapsulation encapsulation = new Encapsulation();
+            encapsulation.Information();
+
+            string name = "Cal";
+            string lastName = "Alton";
+            int age = 19;
+            double salary = 19000;
+            Console.WriteLine($"my name is {name} {lastName}");
+            Console.WriteLine($"I am {age} years old");
+            Console.WriteLine($"my salary is £{salary}");
+           
+            
+
 
 
             /*
             float = 10.5f
-            double = 10.5
+            * double = 10.5
             decimal = 10.5m
             */
         }

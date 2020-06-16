@@ -2,7 +2,7 @@ using System;
 // a libary that will be essential for the majority of first week
 // without it = lengthy paths
 
-namespace introduction
+namespace Logic
 // any class inside of namespace will be available
 {
     class Mathematics 
