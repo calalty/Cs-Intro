@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/codenationstudent/Desktop/csharp/introduction/introduction.csproj": {}
+    "/Users/codenationstudent/Documents/CSharp/Introduction/introduction.csproj": {}
   },
   "projects": {
-    "/Users/codenationstudent/Desktop/csharp/introduction/introduction.csproj": {
+    "/Users/codenationstudent/Documents/CSharp/Introduction/introduction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/codenationstudent/Desktop/csharp/introduction/introduction.csproj",
+        "projectUniqueName": "/Users/codenationstudent/Documents/CSharp/Introduction/introduction.csproj",
         "projectName": "introduction",
-        "projectPath": "/Users/codenationstudent/Desktop/csharp/introduction/introduction.csproj",
+        "projectPath": "/Users/codenationstudent/Documents/CSharp/Introduction/introduction.csproj",
         "packagesPath": "/Users/codenationstudent/.nuget/packages/",
-        "outputPath": "/Users/codenationstudent/Desktop/csharp/introduction/obj/",
+        "outputPath": "/Users/codenationstudent/Documents/CSharp/Introduction/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/codenationstudent/.nuget/NuGet/NuGet.Config"

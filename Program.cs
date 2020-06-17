@@ -42,6 +42,12 @@ float = shorter decimal range
 
             Console.WriteLine("-------");
             Console.WriteLine("-------");
+
+            Pie slices = new Pie();
+            slices.Slices(12, 6, 3);
+
+            Console.WriteLine("-------");
+            Console.WriteLine("-------");
             
         /*
           create multiple variables about yourself declared as private
@@ -52,19 +58,7 @@ float = shorter decimal range
 
             Encapsulation encapsulation = new Encapsulation();
             encapsulation.Information();
-
-            string name = "Cal";
-            string lastName = "Alton";
-            int age = 19;
-            double salary = 19000;
-            Console.WriteLine($"my name is {name} {lastName}");
-            Console.WriteLine($"I am {age} years old");
-            Console.WriteLine($"my salary is £{salary}");
            
-            
-
-
-
             /*
             float = 10.5f
             * double = 10.5
